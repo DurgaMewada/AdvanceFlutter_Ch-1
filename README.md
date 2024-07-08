@@ -1,6 +1,15 @@
-# adv_flutter_ch1
+# Advance Flutter Ch-1
 
-A new Flutter project.
+
+## Theme change
+
+In Flutter, themes are used to control the appearance of your app.Flutter provides two built-in themes: LightTheme and DarkTheme. You can further customize these themes or create your own custom themes.
+This Flutter project demonstrates how to implement theme switching between light and dark themes.
+
+<div> 
+  <img src = "https://github.com/DurgaMewada/adv_flutter_ch1/assets/149373536/a10cf479-4350-415a-a899-ee4c4d50fb37"  height=35% width=22%  />
+   <img src = "https://github.com/DurgaMewada/adv_flutter_ch1/assets/149373536/72e4a3d5-5a00-4dfc-8e59-626b39a19883"  height=35% width=22%  />
+</div>
 
 ## Getting Started
 
