@@ -12,6 +12,9 @@ This Flutter project demonstrates how to implement theme switching between light
 </div>
 
 ## 1.2 Create Registration Page using Stepper Widget
+
+A material stepper widget that displays progress through a sequence of steps. Steppers are particularly useful in the case of forms where one step requires the completion of another one, or where multiple steps need to be completed in order to submit the whole form.
+
 <div> 
   <img src = "https://github.com/user-attachments/assets/a68fceee-1bf2-442c-831f-f1f02d472d49"  height=35% width=22%  />
   <img src = "https://github.com/user-attachments/assets/d28dea0d-2994-4058-bf5a-67aa404a9926"  height=35% width=22%  />
