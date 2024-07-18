@@ -15,8 +15,13 @@ This Flutter project demonstrates how to implement theme switching between light
 <div> 
   <img src = "https://github.com/user-attachments/assets/544b4427-9eac-4473-8d7e-c6bba2d986f6"  height=35% width=22%  />
      <video height="450" src="https://github.com/user-attachments/assets/6798d973-4b30-420f-8728-eec09e295442"/>
-
- 
+</div>
+## 1.7 Photo Gallery With Biometric Authentication
+<div> 
+  <img src = "https://github.com/user-attachments/assets/426d6db9-b7b0-4a2a-8491-0306ccd33e15"  height=35% width=22%  />
+   <img src = "https://github.com/user-attachments/assets/b37bae16-e87a-4690-ae0b-b1a3908a60d7"  height=35% width=22%  />
+    <img src = "https://github.com/user-attachments/assets/d62ad7ee-804a-4d38-8481-56589fd157f1"  height=35% width=22%  />
+     <video height="450" src="https://github.com/user-attachments/assets/6803ff27-e2ca-4f6d-9534-9838f66bd397"/>
 </div>
 
 ## Getting Started
