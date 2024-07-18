@@ -2,8 +2,8 @@ import 'package:adv_flutter_ch1/Screen/1.7%20Biometric%20Authentication/View/Saf
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
 
-import 'Screen/1.2 Stepper Widget/View/RegistrationPage_StepperWidget.dart';
-import 'Screen/1.2 Stepper Widget/View/RegistrationpageStepperwidget_2.dart';
+import 'Screen/1.2 Stepper Widget/View/Stepper_example.dart';
+import 'Screen/1.2 Stepper Widget/View/Steppet_example2.dart';
 import 'Screen/1.6 Contact Us Page/Provider/Contact_Provider.dart';
 import 'Screen/1.6 Contact Us Page/View/ContactPage.dart';
 import 'Screen/1.7 Biometric Authentication/Provider/Biometric_Provider.dart';
