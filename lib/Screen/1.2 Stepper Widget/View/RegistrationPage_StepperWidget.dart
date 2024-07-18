@@ -89,6 +89,7 @@ class _RegistrationpageStepperState
               style: TextStyle(),
             ),
               content: TextField(
+                keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                     hintText: 'Enter Your Mobile Number',
                     hintStyle: TextStyle(
