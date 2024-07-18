@@ -23,7 +23,7 @@ class MyApp extends StatelessWidget {
       create: (context)=> GalleryProvider(),
       builder: (context,child)=>MaterialApp(
         debugShowCheckedModeBanner: false,
-        home:RegistrationpageStepper(),
+        home:RegistrationpageStepper2(),
       ),
     );
   }

@@ -11,6 +11,7 @@ class _RegistrationpageStepper2State extends State<RegistrationpageStepper2> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.white,
       appBar: AppBar(
         backgroundColor: Colors.blueAccent,
         title: Text('Flutter Stepper Demo',style: TextStyle(
