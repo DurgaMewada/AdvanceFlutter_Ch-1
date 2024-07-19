@@ -23,12 +23,26 @@ A material stepper widget that displays progress through a sequence of steps. St
 </div>
  --> Dart File (https://github.com/DurgaMewada/adv_flutter_ch1/tree/master/lib/Screen/1.2%20Stepper%20Widget/View)
 
+
+ ## 1.4 Provider & Change Theme using Provider
+
+The Provider package, created by Remi Rousselet, aims to handle the state as cleanly as possible. In Provider, widgets listen to changes in the state and update as soon as they are notified.
+Provider State Management, which is recommended by Google as well, mainly provides you with a central point to manage the state, and to write front-end logic.
+A provider is a third-party library. Here, we need to understand three main concepts to use this library.
+
+<div> 
+  <img src = "https://github.com/user-attachments/assets/b0f1fb44-853f-4969-a6cd-838e7c3b7ec4"  height=35% width=22%  />
+  <img src = "https://github.com/user-attachments/assets/54cd9ca4-de78-4a9f-9b3f-1a029c01ec38"  height=35% width=22%  />
+   <video height="450" src="https://github.com/user-attachments/assets/ec331603-d79d-40f5-a912-a39dbec82692"/>
+</div>
+ --> Dart File (https://github.com/DurgaMewada/adv_flutter_ch1/tree/master/lib/Screen/1.2%20Stepper%20Widget/View)
+
 ## 1.6 Contact Us Page With Interaction
 <div> 
      <img src = "https://github.com/user-attachments/assets/544b4427-9eac-4473-8d7e-c6bba2d986f6"  height=35% width=22%  />
      <video height="450" src="https://github.com/user-attachments/assets/6798d973-4b30-420f-8728-eec09e295442"/>
 </div>
-     --> Dart File (https://github.com/DurgaMewada/adv_flutter_ch1/tree/master/lib/Screen/1.6%20Contact%20Us%20Page)
+     --> Dart File (https://github.com/DurgaMewada/adv_flutter_ch1/tree/master/lib/Screen/1.4%20Change%20Theme%20using%20Provider)
 
        
 ## 1.7 Photo Gallery With Biometric Authentication
