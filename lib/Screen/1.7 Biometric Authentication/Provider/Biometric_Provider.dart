@@ -30,5 +30,4 @@ class GalleryProvider extends ChangeNotifier{
     }
   }
 
-
 }
