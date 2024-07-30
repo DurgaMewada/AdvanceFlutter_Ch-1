@@ -23,7 +23,15 @@ A material stepper widget that displays progress through a sequence of steps. St
 </div>
  --> Dart File (https://github.com/DurgaMewada/adv_flutter_ch1/tree/master/lib/Screen/1.2%20Stepper%20Widget/View)
 
+## 1.3 Counter App And Theme Change Using Provider
 
+ Create Counter Application and changing theme using Provider. 
+<div> 
+  <video height="450" src="https://github.com/user-attachments/assets/61149d5d-a8ec-49fd-8e8f-ca28e4e33770"/>
+</div>
+ --> Dart File (https://github.com/DurgaMewada/adv_flutter_ch1/tree/master/lib/Screen/1.3%20CounterApp_ThemeChange)
+
+    
  ## 1.4 Provider & Change Theme using Provider
 
 The Provider package, created by Remi Rousselet, aims to handle the state as cleanly as possible. In Provider, widgets listen to changes in the state and update as soon as they are notified.
