@@ -1,3 +1,4 @@
+import 'package:adv_flutter_ch1/Screen/1.5%20One%20Time%20Intro%20Screen%20in%20Flutter/Provider/OneTimeScreenProvider.dart';
 import 'package:adv_flutter_ch1/Screen/1.7%20Biometric%20Authentication/View/SafeGallery.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -8,6 +9,9 @@ import 'Screen/1.3 CounterApp_ThemeChange/Provider/CounterAppProvider.dart';
 import 'Screen/1.3 CounterApp_ThemeChange/View/CounterApp.dart';
 import 'Screen/1.4 Change Theme using Provider/Provider/ThemeProvider.dart';
 import 'Screen/1.4 Change Theme using Provider/View/ThemeUsingProvider.dart';
+import 'Screen/1.5 One Time Intro Screen in Flutter/View/HomeScreen.dart';
+import 'Screen/1.5 One Time Intro Screen in Flutter/View/Screen.dart';
+import 'Screen/1.5 One Time Intro Screen in Flutter/View/SplashScreen.dart';
 import 'Screen/1.6 Contact Us Page/Provider/Contact_Provider.dart';
 import 'Screen/1.6 Contact Us Page/View/ContactPage.dart';
 import 'Screen/1.7 Biometric Authentication/Provider/Biometric_Provider.dart';
@@ -24,33 +28,40 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return ChangeNotifierProvider(
-      create: (context)=> Counterappprovider(),
+      create: (context)=> IntroScreen(),
       builder: (context,child)=>MaterialApp(
-        theme: ThemeData(
-          colorScheme: ColorScheme.light(
-            surface: Colors.white,
-      brightness: Brightness.light,
-            primary: Colors.purple,
-            onPrimary: Colors.green,
-            secondary: Colors.blue,
-            onSecondary: Colors.orange,
-          )
-        ),
-        darkTheme: ThemeData(
-          colorScheme: ColorScheme.dark(
-            brightness: Brightness.dark,
-            surface: Colors.black,
-            primary: Colors.amber,
-            onPrimary: Colors.blue,
-            secondary: Colors.redAccent,
-            onSecondary: Colors.yellow,
-          )
-        ),
-        themeMode: Provider.of<Counterappprovider>(context).isdarkTheme
-        ?ThemeMode.dark
-        :ThemeMode.light,
+      //   theme: ThemeData(
+      //     colorScheme: ColorScheme.light(
+      //       surface: Colors.white,
+      // brightness: Brightness.light,
+      //       primary: Colors.purple,
+      //       onPrimary: Colors.green,
+      //       secondary: Colors.blue,
+      //       onSecondary: Colors.orange,
+      //     )
+      //   ),
+      //   darkTheme: ThemeData(
+      //     colorScheme: ColorScheme.dark(
+      //       brightness: Brightness.dark,
+      //       surface: Colors.black,
+      //       primary: Colors.amber,
+      //       onPrimary: Colors.blue,
+      //       secondary: Colors.redAccent,
+      //       onSecondary: Colors.yellow,
+      //     )
+      //   ),
+      //   themeMode: Provider.of<Counterappprovider>(context).isdarkTheme
+      //   ?ThemeMode.dark
+      //   :ThemeMode.light,
         debugShowCheckedModeBanner: false,
-        home:Counterapp(),
+        initialRoute: '/splash',
+
+        routes: {
+          '/splash':(context)=>Splashscreen(),
+          '/screen':(context)=>Screen(),
+          '/home':(context)=>HomePage(),
+          '/theme':(context)=>Themeusingprovider(),
+        },
       ),
     );
   }
